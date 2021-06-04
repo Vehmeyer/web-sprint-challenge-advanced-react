@@ -12,5 +12,4 @@ const useForm = (initialValue) => {
 
 }
 
-
 export default useForm;
