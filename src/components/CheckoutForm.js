@@ -16,6 +16,7 @@ const initialValue = {
 
 const CheckoutForm = (props) => {
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
+  // custom hook
   const [values, handleChanges] = useForm(initialValue);
 
   const handleSubmit = (e) => {
